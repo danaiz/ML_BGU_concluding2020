@@ -35,7 +35,9 @@ It does so by running a randommized search on a predetermind set of hyper-parame
 In your command line, call python and the file eith the following flags:
 
     -d  - the directory in which all  the datasets needed for the analysis are located and only them.
-    -a - the name of the algorithm to use
-    -p a pickled dictionary with the relevant paramerters for Randomized search. the format can be found here
+    -a - the name of the algorithm to be outputed in the CSV
+    -p - a pickled dictionary with the relevant paramerters for Randomized search. the format can be found in the following link :https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
+    -o - the name of the output CSV
+    -c The name of the algorithm object you want to use (e.g. RandomForestClassifier or SMOTEBoost)
 
 **
